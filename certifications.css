@@ -1,0 +1,83 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+
+    
+}
+nav{
+    background-color: #f0f8ff;
+    color:black;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+   
+}
+
+nav ul li {
+    margin: 0 15px;
+    
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Header Styling */
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+}
+
+/* Certifications Container */
+.certifications-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Certification Card */
+.certification-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 15px;
+    text-align: center;
+}
+
+/* Certification Image */
+.certification-img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #005bb5;
+}
